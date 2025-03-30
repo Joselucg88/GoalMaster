@@ -1,0 +1,142 @@
+/* Estilos comunes de la cabecera (deberían estar también en dashboard.css) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo específico para centrar el formulario */
+.campo-jugador {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campo-jugador h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.campo-jugador label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo-jugador input[type="text"],
+.campo-jugador input[type="number"],
+.campo-jugador input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.campo-jugador button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.campo-jugador button:hover {
+    background-color: #555;
+}
+
+/* Estilo general para la lista de jugadores */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.jugador-item {
+    margin: 10px 0;
+    position: relative;
+}
+
+/* Estilo del nombre del jugador */
+.jugador-nombre {
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+.jugador-nombre:hover {
+    color: #007bff;
+}
+
+/* Ficha del jugador oculta por defecto */
+.jugador-ficha {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 200px;
+}
+
+.jugador-item:hover .jugador-ficha {
+    display: block;  /* Muestra la ficha cuando el ratón está encima */
+}
+
+/* Estilo para la imagen del jugador */
+.jugador-ficha img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Estilo para los detalles del jugador */
+.jugador-ficha p {
+    margin: 5px 0;
+}
+

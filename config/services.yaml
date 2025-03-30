@@ -20,5 +20,11 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
+    # Register the custom enum type with Doctrine
+    App\Doctrine\EnumType:
+        tags:
+            - { name: doctrine.dbal.type, type: enum }
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+

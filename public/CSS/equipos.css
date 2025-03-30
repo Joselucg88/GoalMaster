@@ -1,0 +1,33 @@
+/* equipos.css */
+.equipos-container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.equipos-container h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.equipos-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.equipos-container li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.equipos-container a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.equipos-container a:hover {
+    background-color: #45a049;
+}

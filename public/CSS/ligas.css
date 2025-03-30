@@ -1,0 +1,57 @@
+/* ligas.css */
+
+/* Contenedor del formulario */
+.form-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campo-liga {
+    margin-bottom: 15px;
+}
+
+.campo-liga label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campo-liga input, .campo-liga textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.campo-liga textarea {
+    height: 100px;
+}
+
+.btn-submit {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #2980b9;
+}
+/* Estilo para el botón de eliminar */
+.btn-eliminar {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn-eliminar:hover {
+    text-decoration: underline;
+}
+
